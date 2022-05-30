@@ -36,6 +36,10 @@ class Trojkaty {
             pomoc();
             System.exit(1);
         }
+        if (!czyIstniejeTrojkat(a, b, c)) {
+                    System.out.println("Z podanych długości boków nie da się zbudować trójkąta");
+                    System.exit(3);
+                   }
         float a = Float.valueOf(args[0]);
         float b = Float.valueOf(args[1]);
         float c = Float.valueOf(args[2]);
