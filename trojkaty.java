@@ -14,6 +14,12 @@ class Trojkaty {
         if (a == b && b == c && a == c) {
             System.out.println("Trójkąt równoboczny");
         }
+        if (a == b && b == c && a == c) {
+            System.out.println("Trójkąt równoboczny");
+        }
+        if (a == b || b == c || a == c) {
+            System.out.println("Trójkąt równoramienny");
+        }
         // TODO: tutaj trzeba bedzie dopisac inne przypadki
     }
 
