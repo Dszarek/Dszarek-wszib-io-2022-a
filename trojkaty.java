@@ -29,7 +29,16 @@ class Trojkaty {
         System.out.println("Program do rozpoznawania rodzaju trójkąta");
         System.out.println("Uruchom tylko z trzema argumentami liczbowymi - długość boków trójkąta");
     }
-
+public static int ileJednakowych(float a, float b, float c){
+                   int jednakowe = 0; // tutaj zliczamy ile jest jednakowych bokow
+                   if (a == b) {
+                      jednakowe++;
+                   }
+                   if (b == c) {
+                      jednakowe++;
+                   }
+                   return jednakowe;
+               }
     /** Glowna funkcja */
     public static void main(String... args) {
         if (args.length != 3) {
